@@ -1,0 +1,652 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.memoizacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.031060924853105687,
+            "scoreError" : 0.011502620142499814,
+            "scoreConfidence" : [
+                0.01955830471060587,
+                0.0425635449956055
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.028790212539421156,
+                "50.0" : 0.028940863318984926,
+                "90.0" : 0.034533501613229184,
+                "95.0" : 0.034533501613229184,
+                "99.0" : 0.034533501613229184,
+                "99.9" : 0.034533501613229184,
+                "99.99" : 0.034533501613229184,
+                "99.999" : 0.034533501613229184,
+                "99.9999" : 0.034533501613229184,
+                "100.0" : 0.034533501613229184
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.028915970545090187,
+                    0.028940863318984926,
+                    0.028790212539421156,
+                    0.034533501613229184,
+                    0.03412407624880298
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.memoizacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 0.0666115081393144,
+            "scoreError" : 0.029053103128331533,
+            "scoreConfidence" : [
+                0.03755840501098286,
+                0.09566461126764593
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.05915692926519014,
+                "50.0" : 0.06341353878159739,
+                "90.0" : 0.0758593165836629,
+                "95.0" : 0.0758593165836629,
+                "99.0" : 0.0758593165836629,
+                "99.9" : 0.0758593165836629,
+                "99.99" : 0.0758593165836629,
+                "99.999" : 0.0758593165836629,
+                "99.9999" : 0.0758593165836629,
+                "100.0" : 0.0758593165836629
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.07345397797369467,
+                    0.0758593165836629,
+                    0.06341353878159739,
+                    0.05915692926519014,
+                    0.06117377809242685
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.memoizacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "30"
+        },
+        "primaryMetric" : {
+            "score" : 0.11275021920797997,
+            "scoreError" : 0.07353412344751517,
+            "scoreConfidence" : [
+                0.039216095760464795,
+                0.18628434265549515
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.09492259085237593,
+                "50.0" : 0.10762613520385594,
+                "90.0" : 0.13496858386339736,
+                "95.0" : 0.13496858386339736,
+                "99.0" : 0.13496858386339736,
+                "99.9" : 0.13496858386339736,
+                "99.99" : 0.13496858386339736,
+                "99.999" : 0.13496858386339736,
+                "99.9999" : 0.13496858386339736,
+                "100.0" : 0.13496858386339736
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.10762613520385594,
+                    0.13496858386339736,
+                    0.13073381703095976,
+                    0.09549996908931078,
+                    0.09492259085237593
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.memoizacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "35"
+        },
+        "primaryMetric" : {
+            "score" : 0.09940352641145528,
+            "scoreError" : 0.005408099493506626,
+            "scoreConfidence" : [
+                0.09399542691794865,
+                0.1048116259049619
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.09826131006015704,
+                "50.0" : 0.0988844671490241,
+                "90.0" : 0.10179542800536884,
+                "95.0" : 0.10179542800536884,
+                "99.0" : 0.10179542800536884,
+                "99.9" : 0.10179542800536884,
+                "99.99" : 0.10179542800536884,
+                "99.999" : 0.10179542800536884,
+                "99.9999" : 0.10179542800536884,
+                "100.0" : 0.10179542800536884
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.10179542800536884,
+                    0.09944313368684726,
+                    0.09863329315587914,
+                    0.0988844671490241,
+                    0.09826131006015704
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.recursivo",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.1641572248527157,
+            "scoreError" : 0.003362078264366053,
+            "scoreConfidence" : [
+                0.16079514658834965,
+                0.16751930311708174
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.16303397694065208,
+                "50.0" : 0.16440038631789688,
+                "90.0" : 0.16513142937049535,
+                "95.0" : 0.16513142937049535,
+                "99.0" : 0.16513142937049535,
+                "99.9" : 0.16513142937049535,
+                "99.99" : 0.16513142937049535,
+                "99.999" : 0.16513142937049535,
+                "99.9999" : 0.16513142937049535,
+                "100.0" : 0.16513142937049535
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.16473267868591512,
+                    0.16513142937049535,
+                    0.16440038631789688,
+                    0.16303397694065208,
+                    0.16348765294861897
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.recursivo",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 20.740608728044162,
+            "scoreError" : 0.2716174991257742,
+            "scoreConfidence" : [
+                20.468991228918387,
+                21.012226227169936
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20.662815987595128,
+                "50.0" : 20.711189374535238,
+                "90.0" : 20.842941152109994,
+                "95.0" : 20.842941152109994,
+                "99.0" : 20.842941152109994,
+                "99.9" : 20.842941152109994,
+                "99.99" : 20.842941152109994,
+                "99.999" : 20.842941152109994,
+                "99.9999" : 20.842941152109994,
+                "100.0" : 20.842941152109994
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    20.842941152109994,
+                    20.662815987595128,
+                    20.778414594106543,
+                    20.711189374535238,
+                    20.7076825318739
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.recursivo",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "30"
+        },
+        "primaryMetric" : {
+            "score" : 2563.276710802458,
+            "scoreError" : 38.31982092440109,
+            "scoreConfidence" : [
+                2524.956889878057,
+                2601.596531726859
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2553.239240506329,
+                "50.0" : 2561.9304785894205,
+                "90.0" : 2577.7380102040815,
+                "95.0" : 2577.7380102040815,
+                "99.0" : 2577.7380102040815,
+                "99.9" : 2577.7380102040815,
+                "99.99" : 2577.7380102040815,
+                "99.999" : 2577.7380102040815,
+                "99.9999" : 2577.7380102040815,
+                "100.0" : 2577.7380102040815
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2553.239240506329,
+                    2561.9304785894205,
+                    2577.7380102040815,
+                    2555.4250632911394,
+                    2568.0507614213197
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.recursivo",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "35"
+        },
+        "primaryMetric" : {
+            "score" : 28539.774968253965,
+            "scoreError" : 597.0729846800285,
+            "scoreConfidence" : [
+                27942.701983573937,
+                29136.847952933993
+            ],
+            "scorePercentiles" : {
+                "0.0" : 28345.333333333332,
+                "50.0" : 28595.991666666665,
+                "90.0" : 28698.48285714286,
+                "95.0" : 28698.48285714286,
+                "99.0" : 28698.48285714286,
+                "99.9" : 28698.48285714286,
+                "99.99" : 28698.48285714286,
+                "99.999" : 28698.48285714286,
+                "99.9999" : 28698.48285714286,
+                "100.0" : 28698.48285714286
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    28595.991666666665,
+                    28651.61142857143,
+                    28407.455555555556,
+                    28345.333333333332,
+                    28698.48285714286
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.tabulacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.002692731007567985,
+            "scoreError" : 1.0321306035580158E-4,
+            "scoreConfidence" : [
+                0.0025895179472121836,
+                0.0027959440679237867
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0026683426362027972,
+                "50.0" : 0.002688161083535088,
+                "90.0" : 0.002738227737530772,
+                "95.0" : 0.002738227737530772,
+                "99.0" : 0.002738227737530772,
+                "99.9" : 0.002738227737530772,
+                "99.99" : 0.002738227737530772,
+                "99.999" : 0.002738227737530772,
+                "99.9999" : 0.002738227737530772,
+                "100.0" : 0.002738227737530772
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.002738227737530772,
+                    0.0026683426362027972,
+                    0.0026793897711222298,
+                    0.002688161083535088,
+                    0.0026895338094490378
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.tabulacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 0.0038970566402504007,
+            "scoreError" : 3.829525992680804E-5,
+            "scoreConfidence" : [
+                0.0038587613803235925,
+                0.003935351900177209
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.003887979727670029,
+                "50.0" : 0.0038921074852137226,
+                "90.0" : 0.003909822083114434,
+                "95.0" : 0.003909822083114434,
+                "99.0" : 0.003909822083114434,
+                "99.9" : 0.003909822083114434,
+                "99.99" : 0.003909822083114434,
+                "99.999" : 0.003909822083114434,
+                "99.9999" : 0.003909822083114434,
+                "100.0" : 0.003909822083114434
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.003887979727670029,
+                    0.0038897816055227675,
+                    0.003909822083114434,
+                    0.0038921074852137226,
+                    0.0039055922997310514
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.tabulacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "30"
+        },
+        "primaryMetric" : {
+            "score" : 0.005101432489935517,
+            "scoreError" : 1.150877715254506E-4,
+            "scoreConfidence" : [
+                0.004986344718410066,
+                0.005216520261460968
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.005079141510727416,
+                "50.0" : 0.005096952576779461,
+                "90.0" : 0.005152396169328535,
+                "95.0" : 0.005152396169328535,
+                "99.0" : 0.005152396169328535,
+                "99.9" : 0.005152396169328535,
+                "99.99" : 0.005152396169328535,
+                "99.999" : 0.005152396169328535,
+                "99.9999" : 0.005152396169328535,
+                "100.0" : 0.005152396169328535
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.005152396169328535,
+                    0.005080218704149035,
+                    0.005096952576779461,
+                    0.005098453488693138,
+                    0.005079141510727416
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.u3.lab1.BenchmarkFibonacci.tabulacion",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "35"
+        },
+        "primaryMetric" : {
+            "score" : 0.005120285195334086,
+            "scoreError" : 2.7098251224319053E-4,
+            "scoreConfidence" : [
+                0.004849302683090895,
+                0.005391267707577277
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.005060839090536172,
+                "50.0" : 0.005107038027394331,
+                "90.0" : 0.005241087337806721,
+                "95.0" : 0.005241087337806721,
+                "99.0" : 0.005241087337806721,
+                "99.9" : 0.005241087337806721,
+                "99.99" : 0.005241087337806721,
+                "99.999" : 0.005241087337806721,
+                "99.9999" : 0.005241087337806721,
+                "100.0" : 0.005241087337806721
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.005060839090536172,
+                    0.005241087337806721,
+                    0.005083004119004484,
+                    0.005109457401928727,
+                    0.005107038027394331
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
